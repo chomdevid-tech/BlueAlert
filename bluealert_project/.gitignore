@@ -1,0 +1,153 @@
+# =========================================================
+# Python virtual environment
+# =========================================================
+
+backend/.venv/
+.venv/
+venv/
+
+
+# =========================================================
+# Python cache and testing
+# =========================================================
+
+**/__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# =========================================================
+# Private environment files
+# =========================================================
+
+.env
+backend/.env
+
+
+# =========================================================
+# Firebase Admin private keys
+# =========================================================
+
+**/serviceAccountKey.json
+**/*service-account*.json
+**/*service_account*.json
+**/*firebase-adminsdk*.json
+
+
+# =========================================================
+# Backend runtime logs
+# =========================================================
+
+backend/storage/backend.log
+backend/storage/*.log
+
+
+# =========================================================
+# Generated raw logs
+# Keep .gitkeep so the folder remains in Git
+# =========================================================
+
+backend/storage/raw_logs/*
+!backend/storage/raw_logs/.gitkeep
+
+
+# =========================================================
+# Processed logs
+# =========================================================
+
+backend/storage/processed_logs/*
+!backend/storage/processed_logs/.gitkeep
+
+
+# =========================================================
+# Failed logs
+# =========================================================
+
+backend/storage/failed_logs/*
+!backend/storage/failed_logs/.gitkeep
+
+
+# =========================================================
+# Generated alert files
+# =========================================================
+
+backend/storage/generated_alerts/*
+!backend/storage/generated_alerts/.gitkeep
+
+
+# =========================================================
+# Flutter and Dart generated files
+# =========================================================
+
+mobile_app/.dart_tool/
+mobile_app/.packages
+mobile_app/build/
+mobile_app/coverage/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+
+
+# =========================================================
+# Android generated and private files
+# =========================================================
+
+mobile_app/android/.gradle/
+mobile_app/android/local.properties
+mobile_app/android/key.properties
+*.jks
+*.keystore
+
+
+# =========================================================
+# iOS and macOS generated files
+# =========================================================
+
+mobile_app/ios/Pods/
+mobile_app/ios/.symlinks/
+mobile_app/macos/Pods/
+mobile_app/macos/.symlinks/
+
+
+# =========================================================
+# Flutter desktop generated files
+# =========================================================
+
+mobile_app/windows/flutter/ephemeral/
+mobile_app/linux/flutter/ephemeral/
+mobile_app/macos/Flutter/ephemeral/
+
+
+# =========================================================
+# IDE files
+# =========================================================
+
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+
+# =========================================================
+# Operating system files
+# =========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================================================
+# Temporary files
+# =========================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Backend private secret files
+backend/secrets/*.json
+!backend/secrets/.gitkeep
